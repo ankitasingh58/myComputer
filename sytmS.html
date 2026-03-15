@@ -1,0 +1,242 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+
+	</title>
+	<style type="text/css">
+			#outer{
+				width:100%;				
+			}
+			#header{
+				height:90px;
+				width:100%;
+				background-color:blue;
+				background-image:linear-gradient(to bottom, lightgray ,gray);
+			}
+			#menu{
+			width: 100%;
+		    height: 40px;
+		   		}
+		   .boxItem{
+
+		   height:25px;
+           width:90px;
+           display:block;
+           float: left;
+           text-decoration:none;
+           color:white;
+           padding-top: 10px;
+           padding-bottom: 5px;
+           text-align: center;
+           border-radius: 8px;
+           margin-left: 5px;
+		}
+		.drop{
+		   height:25px;
+           width:90px;
+           display:block;
+           float: left;
+           text-decoration:none;
+           text-align: center;
+           border-radius: 8px;
+		}
+		.drop:hover{
+			background-image: linear-gradient(to bottom, cyan,black);
+			 border-radius: 8px;
+			}
+		.boxItem:hover{
+			background-image: linear-gradient(to bottom, cyan,black);
+			 border-radius: 8px;
+		}
+#main
+{
+height:800px;
+width:100%;
+background-color: #F5F5F5;
+}
+.mainl
+{
+margin:left:100px;
+height:600px;
+width:405px;
+float:left;
+}
+.over:hover{
+			transform:scale(1.1);
+			z-index: 2;
+		}
+
+		
+		#footer{
+			height: 250px
+			width:100%;
+			background:black;
+		}
+		.foot{
+			height:260px;
+			width:300px;
+			margin-left:30px;
+			padding-top:2px;
+			color:white;
+			float: left;
+		}
+		</style>
+</head>
+<body>
+<div id="outer">
+	<div id="header">
+		<div style="width:80px; height: 90px; float: left; margin-left: 20px;">
+				<img src="image/comp.png" style="width:100px; height: 90px; ">
+		</div>
+		<div style="width:80px; height: 90px; float: left; margin-left: 20px;">
+				<img src="image/logoP.png" style="width:330px; height: 90px; ">
+		</div>
+	    <div id="menu">    
+	   	  		<div style="width:750px; height:30px; float: right; margin-top:30px;">
+					<a href="index.html" class="boxItem">Home</a>
+					<a href="history.html" class="boxItem">History</a>
+					<select class="drop" style="color: white; border: none; margin-top: 8px; margin-left: 20px;background-color: transparent;">
+				    	<option style="color: white;"><a href="#" ></a>Hardware</option>
+					    <option style="color: black;"><a href="#" ></a>Input Devices</option>
+					    <option style="color: black;"><a href="#"></a>Output Devices</option>
+					    <option style="color: black;"><a href="#"></a>Computer Memory</option>
+					</select>
+				    <select class="drop" style="color: white; border: none; margin-top:8px; margin-left: 20px;background-color: transparent;">
+				    	<option style="color: white;"><a href="" ></a>Software</option>
+					    <option style="color: black;"><a href="systemS.html" ></a>System</option>
+					    <option style="color: black;"><a href="appS.html"></a>Application</option>
+					    <option style="color: black;"><a href="utilitiS.html"></a>Utility</option>
+					</select>
+					
+					<a href="processor.html" class="boxItem" style="margin-left: 8px;">Processors</a>
+					<a href="generation.html" class="boxItem">Generation</a>
+					<a href="application.html" style="margin-left: 6px;" class="boxItem">Application</a>
+				</div>	
+	    </div>
+	</div>
+	<div id="middle" style="height:140px; width:100%;">
+<center><img src="image/Ss.png" height="180px" widht="600px;"/></center>
+</div>
+<div id="main">
+<div class="mainl" style="">
+<img class="over" src="image/mac1.png" style="height:285px; width:400px; margin-left: 50px; margin-top:20px;">
+<center><h1 style="padding:10px; color:blue; margin-left:80px;">Mac OS</h1></center>
+<p style="margin-left:50px; font-size: 20px;">
+	Mac OS ( Operating System ) is a desktop operating system developed by Apple Inc. 
+<br/>
+It is used primarily on Macintosh computers and was originally named System Software, but later renamed to Mac OS when the operating system was integrated into the Apple Hardware Division.
+<br/>
+The current version of Mac OS X (v10.11) was released in 2013, along with its first update,"Yosemite".
+<br/>
+<br/>
+The latest version of macOS is Mojave (v10.14).
+</p>
+</div>
+<div class="mainl" style="">
+<img class="over"  src="image/ub.png" style="height:280px; width:300px;margin-left: 110px; margin-top:30px;">
+<center><h1 style="padding:10px; color:blue; margin-left:100px;">Ubuntu</h1></center>
+<p style="margin-left:50px; font-size: 20px;">
+	Ubuntu is a free and open-source operating system that runs on desktops,
+<br/>
+ laptops, servers, and mobile devices.
+<br/>
+It's a product of the Ubuntu Foundation and was created by South African-born developer Mark Shuttleworth in 2004.
+<br/>
+In 2011, Canonical Ltd., a UK-based company, took over the development of Ubuntu from the community. 
+The latest version of Ubuntu is 18.04 LTS (Long Term Support). </p>
+</p>
+</div>
+<div class="mainl" style="">
+<img class="over"  src="image/wind.png" style="height:310px; width:350px;margin-left:90px;">
+<center><h1 style="padding:10px; color:blue; margin-left:140px;">Windows</h1></center>
+<p style="margin-left:80px; font-size: 20px;">
+	Windows is a brand name of a series of operating systems developed by Microsoft. The first version was Windows 1.0, released in 1985.
+Windows is based on the UNIX operating system and uses X86-based processors (x86).
+<br/>
+Windows runs on different hardware architectures, including IA-32 (Intel), AMD64 (AMD), ARM, PowerPC, and Itanium.
+<br/>
+The most common version of Windows is 7 which has been used since 2009. Other versions include:
+<br/> </p>
+</p>
+</div>
+</div>
+	<div id="footer">
+		<div class="foot">
+			<h4 style="font-weight: bold; text-align: center;">About Computer</h4>
+                <small style="color:grey;">A computer is a digital electronic machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks.
+                </small>
+                <br><br>
+        </div>
+		<div class="foot">
+			<h4 style="font-weight: bold; text-align: center;">Chitrakoot</h4>
+			<small style="color:grey;">Near Ramayan Mela  Chitrakoot  Uttar Pradesh - +91 8879648603, 9223515071
+			</small>
+			<br><br>
+            <small style="color:grey;">Email:202ankitasingh@gmail.com</small>
+		</div>
+		<div class="foot">
+			<h4 style="font-weight: bold;" class="text-uppercase">Important Links</h4>
+                    <ul>
+                    	<li>
+                        <a href="appS.html"><small>Application Software</small></a>
+                    </li>
+                    <li>
+                        <a href="sytmS.html"><small>System Software</small></a>
+                    </li>
+                    <li>
+                        <a href="utilitiS.html"><small>Utility Software</small></a>
+                    </li>
+                    <li>
+                        <a href="input.html"><small>Input</small></a>
+                    </li>
+                    <li>
+                        <a href="output.html"><small>Output</small></a>
+                    </li>
+                    <li>
+                        <a href="computermemory.html"><small>Computer Memory</small></a>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.intel.in/content/www/in/en/homepage.html"><small>Memory Company</small></a>
+                    </li>
+                    <li>
+                        <a href="https://www.microsoft.com/en-in"><small>Software Company</small></a>
+                    </li>
+                    <li>
+                        <a href="https://www.hp.com/gb-en/shop/list.aspx?sel=NTB"><small>Hardware Company</small></a>
+                    </li>
+                    <li>
+                        <a href="https://www.mykss.in"><small>KSS Company</small></a>
+                    </li>
+                    </ul>
+		</div>
+		<div class="foot">
+			 <h4 style="font-weight: bold;" class="text-uppercase">Contact Us</h4>
+                    <p class="text-grey" style="color:grey;margin-top:12px"></i>&nbsp;&nbsp;&nbsp;  KSS Chitrakoot</p>
+                    <p style=" color:grey;">&nbsp;&nbsp;&nbsp; +91- 8854673425</p>
+                    <p style=" color:grey;">&nbsp;&nbsp;&nbsp;Er.202ankita@gmail.com</p><br>
+                    <p>
+                    	<img src="image/facebook.png"  style="height: 40px; width:40px;">&emsp;
+                    	<img src="image/instagram.png"  style="height: 35px; width:35px;">&emsp;
+                    	<img src="image/contact1.png"  style="height: 40px; width:40px;">&emsp;
+                    	<img src="image/mail2.png"  style="height: 35px; width:35px;">
+                    </p>
+          
+		</div>
+		  <center><div style="background-color: black; color:white;padding-bottom: 20px;">Copyright &copy; &emsp;<a href="https://www.mykss.in" style="text-decoration: none; color:white;"> KSS Chitrakoot 2022</a>&nbsp;| &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp; All right Developed By<a href="developer.html" style="text-decoration: none;"> &emsp;Team Member Details</a> </div></center>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
