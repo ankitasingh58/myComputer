@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+
+	</title>
+	<style type="text/css">
+			#outer{
+				
+				width:100%;
+				border: 1px solid black;
+			}
+			#header{
+				height:90px;
+				width:100%;
+				background-color:blue;
+				background-image:linear-gradient(to bottom, lightgray ,gray);
+			}
+			#menu{
+			width: 100%;
+		    height: 40px;
+		   		}
+		   .boxItem{
+
+		   height:25px;
+           width:90px;
+           display:block;
+           float: left;
+           text-decoration:none;
+           color:white;
+           padding-top: 10px;
+           padding-bottom: 5px;
+           text-align: center;
+           border-radius: 8px;
+           margin-left: 5px;
+		}
+		.drop{
+			height:25px;
+           width:90px;
+           display:block;
+           float: left;
+           text-decoration:none;
+           text-align: center;
+           border-radius: 8px;
+		}
+		.drop:hover{
+			background-image: linear-gradient(to bottom, cyan,black);
+			 border-radius: 8px;
+			}
+		.boxItem:hover{
+			background-image: linear-gradient(to bottom, cyan,black);
+			 border-radius: 8px;
+		}
+		.dropbtn{
+			cursor:pointer;
+		}
+		.dropdown{
+			position:relative;
+			display:inline-block;
+		}
+		.dropdown-content{
+			position:absolute;
+			display: none;
+			z-index:1;
+		}
+		.dropdown:hover .dropdown-content{
+			display: none;
+		}	
+</style>
+</head>
+<body>
+<div id="outer">
+	<div id="header">
+		<div style="width:80px; height: 90px; float: left; margin-left: 20px;">
+				<img src="../image/comp.png" style="width:100px; height: 90px; ">
+		</div>
+		<div style="width:80px; height: 90px; float: left; margin-left: 20px;">
+				<img src="../image/logoP.png" style="width:330px; height: 90px; ">
+		</div>
+	    <div id="menu">    
+	   	  		<div style="width:750px; height:30px; float: right; margin-top:30px;">
+					<a href="#" class="boxItem">Home</a>
+					<a href="#" class="boxItem">History</a>
+
+					<div class="dropdown" >
+						<button class="dropbtn">Hardware</button>
+				    	<div class="dropdown-content">
+					    <a href="#" >Input</a>
+					    <a href="#">Output</a>
+					    <a href="#">Memory</a>
+					</div>
+				</div>
+				    <select class="drop" style="color: white; border: none; margin-top:8px; margin-left: 20px;background-color: transparent;">
+				    	<option style="color: white;"><a href="#" ></a>Software</option>
+					    <option style="color: black;"><a href="#" ></a>System</option>
+					    <option style="color: black;"><a href="#"></a>Application</option>
+					    <option style="color: black;"><a href="#"></a>Utility</option>
+					</select>
+					
+					<a href="#" class="boxItem" style="margin-left: 8px;">Processors</a>
+					<a href="#" class="boxItem">Generation</a>
+					<a href="#" style="margin-left: 6px;" class="boxItem">Application</a>
+				</div>	
+	    </div>
+	</div>
